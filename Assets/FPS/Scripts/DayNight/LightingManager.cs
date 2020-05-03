@@ -10,12 +10,7 @@ public class LightingManager : MonoBehaviour
     [SerializeField] private LightData preset;
     //Variables
     [SerializeField, Range(0,24)] private float timeOfDay;
-    [SerializeField] private float timeMultiplier = 1;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float timeMultiplier;
 
     // Update is called once per frame
     void Update()
